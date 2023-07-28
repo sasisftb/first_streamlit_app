@@ -6,6 +6,6 @@ with st.chat_message("user"):
     st.line_chart(np.random.randn(30, 3))
 
 # Display a chat input widget.
-st.chat_input("Say something")
+prompt = st.chat_input("Say something")
 if prompt:
     st.write(f"User has sent the following prompt: {prompt}")
