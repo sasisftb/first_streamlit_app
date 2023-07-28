@@ -2,13 +2,8 @@ import streamlit as st
 import numpy as np
 st.header('Sasi GM')
 with st.chat_message("user"):
-    st.write("Hello How may i help you 👋")
-    st.line_chart(np.random.randn(30, 3))
-
-# Display a chat input widget.
-prompt = st.chat_input("Say something")
-if prompt:
-    st.write(f"User has sent the following prompt: {prompt}")
+    st.write("Hello Which Animal do you like 👋")
+    #st.line_chart(np.random.randn(30, 3))
 
 col1, col2, col3 = st.columns(3)
 
@@ -23,3 +18,8 @@ with col2:
 with col3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg")
+
+# Display a chat input widget.
+prompt = st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
