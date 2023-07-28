@@ -1,1 +1,8 @@
 snowflake-connector-python
+streamlit
+streamlit_chat
+langchain
+sentence_transformers
+openai
+unstructured and unstructured[local-inference]
+pinecone-client
