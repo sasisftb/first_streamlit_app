@@ -7,3 +7,5 @@ with st.chat_message("user"):
 
 # Display a chat input widget.
 st.chat_input("Say something")
+if prompt:
+    st.write(f"User has sent the following prompt: {prompt}")
